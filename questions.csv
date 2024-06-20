@@ -36,3 +36,4 @@ dualControl,100,BOOLEAN,Canada,Cyber,,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,Insurance ap
 coverageCyberAvailable,100,BOOLEAN,Canada,Cyber,,,,,,,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,APPLICATION,,,,,,,,,,,,,
 coverageCyberAvailableReason,100,TEXT,Canada,Cyber,,coverageCyberAvailable,EQUALS,FALSE,,,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,APPLICATION,,,,,,,,,,,,,
 productCyber,100,BOOLEAN,Canada,Cyber,,,,,,,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,APPLICATION,,,,,,,,,,,,,
+newRequiredQuestion,100,BOOLEAN,Canada,Cyber,,,,,,,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,APPLICATION,,,,,,,,,,,,,
