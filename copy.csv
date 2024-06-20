@@ -1,0 +1,66 @@
+key,value,documentSection,order,notes,placeholder,helperText
+requiresTechEo,Requires tech E&O,,,,,
+cyberIndustry,Industry,,,,,
+cyberEmployeeCount,Employee Count,,,,,
+ONE_TO_TWENTY_FIVE,1-25,,,,,
+TWENTY_SIX_TO_FIFTY,26-50,,,,,
+FIFTY_ONE_TO_TWO_HUNDRED_FIFTY,51-250,,,,,
+TWO_HUNDRED_FIFTY_ONE_TO_ONE_THOUSAND,251-1000,,,,,
+ABOVE_ONE_THOUSAND,1000+,,,,,
+cyberRevenue,Revenue,,,,,
+cyberGrossProfitNetRevenue,Gross Profit Net Revenue,,,,,
+priorClaims,"(en-CA) Within the last 3 years has the company suffered any cyber incidents resulting in a claim in excess of $25,000?",,,,,
+priorClaimsExplanation,"Please provide details of each claim or incident, and the steps taken to remediate the issue(s)",,,,,
+priorClaimsUploads,Please submit any relevant claims or underwriting information below.,,,,,
+awareOfNewClaims,Are you aware of any circumstances at the company which might give rise to a claim under this insurance policy?,,,,,"When obtaining a Coalition quote, you're asked whether a prospective insured has had a prior incident or claim. Coalition does not disqualify anyone from coverage due to past claims. Often we see that organizations that have experienced incidents in the past and have made investments to harden their cyber defenses are among the most protected. Since Coalition insurance includes full prior acts by default, you will be asked for details of any incident."
+awareOfNewClaimsExplanation,"Please provide details of each claim or incident, and the steps taken to remediate the issue(s)",,,,"Please provide details of each claim or incident, and the steps taken to remediate the issue(s). Where possible, details should include: Date of event (MM/DD/YY), date noticed to insurer, insurer name, law enforcement report, and description of event.",
+awareOfNewClaimsUploads,Please submit any relevant claims or underwriting information below.,,,,,
+encryptsData,"Does company implement encryption on laptop computers, desktop computers, and other portable media devices?",,,,,"Encrypting your computer is critical in protecting your data if your computer is physically lost or stolen. Encrypting your data with modern computer hardware and software has become much easier with the built-in solutions. We recommend always enabling Full Disk Encryption (like BitLocker and FileVault) wherever possible, and most critically, on mobile computers."
+YES,Yes,,,,,
+NO,No,,,,,
+SOMETIMES,Sometimes,,,,,
+piiPhi,"Does company collect, process, store, transmit, or have access to any Payment Card Information (PCI), Personally Identifiable Information (PII), or Protected Health Information (PHI) other than employees of company?",,,,,"Our policy defines PII and PHI as any information about an individual that is required by any local, state, provincial, territorial, federal, or foreign law or regulation to be protected from unauthorized access, acquisition, or public disclosure. We've deliberately used a broad definition of PII to cover all the definitions used by state, provincial, territorial, federal, and foreign law."
+piiPhiCount,"How many PII or PHI records does the company collect, process, store, transmit, or have access to?",,,,,
+NO_RECORD,No records,,,,,
+LESS_THAN_100K,<100k,,,,,
+100K_TO_500K,100k - 500k,,,,,
+500K_TO_1M,500k - 1m,,,,,
+ABOVE_1M,Above 1M,,,,,
+actualPiiPhiCount,"Actual PII/PHI Record Count",,,,,
+creditCardCustomerCount,"What is the estimated annual volume of payment card transactions (credit cards, debit cards, etc.)?",,,,,
+actualCreditCardCustomerCount,Actual credit card record count number,,,,,
+backupRestore,Does company maintain at least weekly backups of all sensitive or otherwise critical data and all critical business systems offline or on a separate network?,,,,,A good data backup can mean the difference between a total loss and a full recovery after an incident. Coalition recommends backups be maintained offsite for critical business data and be regularly tested for full recovery.
+mfaEmail,Email,,,,,"One of the best ways to help protect your account access is to use an additional authentication method other than a password. Multi-Factor Authentication (MFA) or 2-Factor Authentication (2FA) provides this additional authentication method. Coalition typically recommends using a mobile application, such as Google Authenticator, Duo Security, and others. We recommend MFA is implemented on all business critical systems."
+mfaRemoteAccess,"Virtual Private Network (VPN), Remote Desktop Protocol (RDP), RDWeb, RD Gateway, or other remote access",,,,,"One of the best ways to help protect your account access is to use an additional authentication method other than a password. Multi-Factor Authentication (MFA) or 2-Factor Authentication (2FA) provides this additional authentication method. Coalition typically recommends using a mobile application, such as Google Authenticator, Duo Security, and others. We recommend MFA is implemented on all business critical systems."
+NO_REMOTE_ACCESS_ALLOWED,No remote access allowed,,,,,
+mfaOtherPrivilegedAccounts,Network / cloud administration or other privileged user accounts,,,,,"One of the best ways to help protect your account access is to use an additional authentication method other than a password. Multi-Factor Authentication (MFA) or 2-Factor Authentication (2FA) provides this additional authentication method. Coalition typically recommends using a mobile application, such as Google Authenticator, Duo Security, and others. We recommend MFA is implemented on all business critical systems."
+ADMISTRATIVE_AND_CLOUD,On administrative accounts and all cloud services where supported,,,,,
+dualControl,"Does company require a secondary means of communication to validate the authenticity of funds transfers (ACH, wire, etc.) requests before processing a request in excess of $25,000?",,,,,"Phishing and email spoofing are very common, and it is no longer safe to assume that the information you receive in an email is accurate. One area where we see this result in substantial loss is funds transfer fraud – also referred to as social engineering and cybercrime. Implementing a dual control process when making funds transfers can help prevent fraudulent activity and enabling dual control qualifies organizations for Coalition's Funds Transfer Fraud (FTF) coverage."
+contentComplaints,"Within the last 3 years has the company been subject to any complaints concerning the content of its website, advertising materials, social media, or other publications?",,,,,"Where coverage for media content is required, Coalition needs to know whether any recent content displayed in your website, advertising, social media or other publications has been the subject of complaints that might be relevant to our decision as to whether to provide Multimedia Content Liability coverage and that our prospective insured can quickly and effectively remove offending content where required."
+reviewsContent,Does company enforce procedures to remove content (including third party content) that may infringe or violate any intellectual property or privacy right?,,,,,"Where coverage for media content is required, Coalition needs to know whether any recent content displayed in your website, advertising, social media or other publications has been the subject of complaints that might be relevant to our decision as to whether to provide Multimedia Content Liability coverage and that our prospective insured can quickly and effectively remove offending content where required."
+,,,,,,
+hasTechEo,Will the company have an active technology errors and omissions policy concurrent with this insurance policy?,,,,,"If your technology client wants a cyber standalone quote from Coalition, then we need to know that a Technology E&O policy will be in place to run alongside. Alternatively, if you answer yes, you can apply for a combined Cyber and Technology E&O policy from Coalition."
+wantsTechEo,Would you like to include Coalition technology errors and omissions coverage in the quote?,,,,,"Technology E&O is a type of insurance designed to cover providers of technology services or products. For example, software/SaaS, data storage companies and website designers provide technology services, while computer software and computer manufacturers offer technology products. Tech E&O policies cover both liability and first-party loss exposures."
+techEoDispute,"Within the last 3 years has the company been subject to a dispute or claim arising out of a technology error or omission in excess of $25,000?",,,,,"Prior incidents do not disqualify the insured for a quote, but we will ask for details of any past claims and settlement amounts. We require information for any prior claim above $25,000 to separate material claims from more routine complaints from the insured’s customers."
+techEoDisputeExplanation,Please explain the disputes and/or claims.,,,,,
+techEoDisputeUploads,Please submit any relevant claims or underwriting information below.,,,,,
+isMspOrBadIndustry,"Is {CompanyName} operating as a managed service provider (MSP), or does {CompanyName} participate directly in or sell technology products/services designed for any of the following industries?\n*Cryptocurrency\n*Cannabis\n*Internet of Things\n*Financial Services\n*Healthcare\n*Blockchain\n*Automotive\n*Aviation\n*Military/Defense\n*Professional Services(Legal,Medical,A&E, or other licensed professional services)\n*Point of Sale (POS) Software/Hardware/Reseller\n*Gambling\n*Payment Processing\n*Adult Entertainment",,,,,The details on a client’s business operations help us understand the exposure basis for the business and any applicable coverages or sublimits for their industry.
+professionalServices,Please describe the company's use of technology in delivering its product and/or services.,,,,,E&O insurance relates directly to the professional activities of the organization. It is important for Coalition to understand the nature of those technology based activities in order to determine our appetite for providing coverage and propose suitable terms.
+servicesByContract,How often are the company's services provided by written agreement or contract?,,,,,This helps our underwriters understand how the insured uses contracts and whether we need more information on the use of bespoke or custom contracts.
+HUNDRED_PERCENT,100% of agreements or contracts,,,,,
+GREATER_THAN_OR_EQUAL_TO_FIFTY_PERCENT,>=50% of agreements or contracts,,,,,
+LESS_THAN_FIFTY_PERCENT,<50% of agreements or contracts,,,,,
+NONE,0% of agreements or contracts,,,,,
+mitigatingClauses,Identify the standard risk mitigating clauses or methods contained within the Company's agreements or contracts.,,,,,This provides us with a basic overview of how the prospective insured manages liability risk and exposure through the use of contractual limitations and other mechanisms within their standard contracts.
+CUSTOMER_SIGN_OFF,Customer Sign Off,,,,,
+DISCLAIMER_OF_WARRANTIES,Disclaimer of Warranties,,,,,
+HOLD_HARMLESS_AGREEMENTS,Hold Harmless Agreements,,,,,
+LIMITATION_OF_LIABILITY,Limitation of Liability,,,,,
+EXCLUSION_OF_DAMAGES,Exclusion of Damages,,,,,
+INDEMNIFICATION,Indemnification,,,,,
+BINDING_ARBITRATION,Binding Arbitration,,,,,
+MILESTONES,Milestones,,,,,
+,,,,,,
+coverageCyberAvailable,Cyber Coverage Available,,,,,
+coverageCyberAvailableReason,Cyber Coverage Available Reason,,,,,
+productCyber,Cyber,,,,,
